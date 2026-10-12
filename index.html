@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Music Videos</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1f2430;
+    --muted: #5b6372;
+    --accent: #4c5fd5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161c;
+      --fg: #e8eaf0;
+      --muted: #9aa3b2;
+      --accent: #8fa0ff;
+    }
+  }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  main { max-width: 640px; text-align: center; }
+  h1 { font-size: 2rem; margin: 0 0 12px; }
+  p { color: var(--muted); margin: 0 0 24px; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Music Videos</h1>
+  <p>A personal desktop tool for preparing and uploading videos to the operator's own
+  YouTube channels. It is not a public service and has no users other than its operator.</p>
+  <p><a href="./privacy.html">Privacy policy</a></p>
+</main>
+</body>
+</html>
